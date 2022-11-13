@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitud de empleo</title>
+</head>
+<body style="background-color:#e447a8;">
+  <FIELDSET>
+    <table WIDTH="80%" BORDER="1" CELLSPACING="1" CELLPADING="1">
+        
+      <tr>
+       <th bgcolor="#bebebe">Solicitud de empleo</th>
+          <td width="4%">
+            <p>Fecha<br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></p>
+          </td>
+      </tr>
+        
+      <tr>
+        <td rowspan="3" width="6%"><p>Sea tan amable de llenar esta solicitud en forma manuscrita
+                NOTA: Toda información aquí proporcionada será tratada confidencialmente</p> 
+        </td>
+        <td width="4%">
+          <p>Sueldo Mensual deseado<br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></p>
+        </td>
+      </tr>
+
+      <tr>
+        <td width="4%">
+          <p>Sueldo Mensual Aprobado<br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></p>
+        </td>
+      </tr>
+          
+      <tr>
+        <td width="4%">
+          <p>Fecha de Contratación<br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></p>
+        </td>
+      </tr>
+
+        
+    </table>
+  </FIELDSET>
+  <br>
+  <br>
+
+    <fieldset>
+      <table WIDTH="100%" BORDER="1" CELLSPACING="4" CELLPADING="1">
+        <tr>
+          <th colspan="5" align="center" bgcolor="#bebebe">
+            <p>Datos personales</p>
+
+          </th>
+        </tr>
+
+        <tr>
+          <td>
+            <p>Apellido paterno<br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></p>
+          </td>
+          <td>
+            <p>Apellido materno<br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></p>
+          </td>
+          <td colspan="2">
+            <p>Nombre(s)<br><INPUT NAME="snum" TYPE="TEXT" SIZE="30" MAXLENGTH="10"></p>
+          </td>
+            <td>
+            <p>Edad<br><INPUT NAME="snum" TYPE="TEXT" SIZE="8" MAXLENGTH="10"><br><left>Años</left></p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <p>Domicilio<br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></p>
+          </td>
+          <td>
+            <p>Colonia<br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></p>
+          </td>
+          <td>
+            <p>Código postal<br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></p>
+          </td>
+            <td>
+            <p>Telefono<br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></p>
+          </td>
+          <td>
+            <p>Sexo</p>
+            <SELECT NAME="genero">
+            <option> Masculino</option>
+            <option>Femenino</option>
+            </SELECT>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <p>Ciudad,Estado<br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></p>
+          </td>
+          <td>
+            <p>Lugar de nacimiento<br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></p>
+          </td>
+          <td>
+            <p>Fecha de nacimiento<br><INPUT NAME="snum" TYPE="date"></p>
+          </td>
+          <td>
+            <p>Nacionalidad<br><INPUT NAME="snum" TYPE="TEXT"></p>
+          </td>
+          <td>
+            <p>Estatura<br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></p>
+            <p>Peso<br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <p>Vive con<input type="text" name="txtVive" list="listaVive">
+            </p>
+            <datalist id="listaVive">
+              <option>Sus padres</option>
+              <option>Su familia</option>
+              <option>Parientes</option>
+              <option>Solo</option>
+            </datalist>
+          </td>  
+        
+          <td colspan="2">
+           <p>Personas que dependen de usted<input type="text" name="txtDependen" list="listaDependen">
+           </p>
+            <datalist id="listaDependen">
+              <option>Hijos</option>
+              <option>Cónyuge</option>
+              <option>Padres</option>
+              <option>Otros</option>
+            </datalist>
+          </td>
+          <td>
+            <p>Estado civil<input type="text" name="txtEstadoCivil" list="listaEstadoCivil">
+            </p>
+             <datalist id="listaEstadoCivil">
+               <option>Soltero</option>
+               <option>Casado</option>
+               <option>Otro</option>
+             </datalist>
+          </td>
+        </tr>  
+      </table>
+    </fieldset>
+    <br>
+  <br>
+    <fieldset>
+      <table WIDTH="100%" BORDER="1" CELLSPACING="4" CELLPADING="1">
+        <tr>
+          <th colspan="4" align="center" bgcolor="#bebebe">
+            <p>Documentación</p>
+          </th>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <p>Clave Única de Registro de Población<br><INPUT NAME="snum" TYPE="TEXT" SIZE="30" MAXLENGTH="10"></p>
+          </td>
+
+          <td colspan="2">
+            <p>AFORE<br><INPUT NAME="snum" TYPE="TEXT" SIZE="30" MAXLENGTH="10"></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+           <p>Reg. Fed. De Contribuyentes<br><INPUT NAME="snum" TYPE="TEXT" SIZE="20" MAXLENGTH="10"></p>
+          </td>
+          <td>
+            <p>Número de seguridad Social<br><INPUT NAME="snum" TYPE="TEXT" SIZE="20" MAXLENGTH="10"></p>
+          </td>
+          <td>
+            <p>Cartilla de Servivio Militar No.<br><INPUT NAME="snum" TYPE="TEXT" SIZE="20" MAXLENGTH="10"></p>
+          </td>
+          <td>
+            <p>Pasaporte No.<br><INPUT NAME="snum" TYPE="TEXT" SIZE="20" MAXLENGTH="10"></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Tiene licencia de manejo</p>
+            <input type="checkbox" id="cbox1" value="first_checkbox"> Si</br>
+            <input type="checkbox" id="cbox1" value="first_checkbox"> No</br>
+          </td>
+          <td>
+            <p>Clase y Número de Licencia<br><INPUT NAME="snum" TYPE="TEXT" SIZE="20" MAXLENGTH="10"></p>
+          </td>
+          <td colspan="2">
+            <p>Siendo extranjero que docmentos le permiten trabajar en el país<br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="30"></p>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+      <table WIDTH="100%" BORDER="1" CELLSPACING="4" CELLPADING="1">
+        <tr>
+          <th colspan="4" align="center" bgcolor="#bebebe">
+            <p>Estado de Salud y Hábitos Personales</p>
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <p>¿Como considerar su estado de salud actual</p>
+            <input type="checkbox" id="cbox1" value="first_checkbox"> Bueno</br>
+            <input type="checkbox" id="cbox2" value="first_checkbox"> Regular</br>
+            <input type="checkbox" id="cbox3" value="first_checkbox"> Malo</br>
+          </td>
+          <td>
+            <p>¿Padece alguna enfermedad crónica?</p>
+            <input type="checkbox" id="cbox1" value="first_checkbox"> No</br>
+            <input type="checkbox" id="cbox2" value="first_checkbox"> Si</br>
+            <p>Explique<br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="30"></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>¿Práctica Ud.Algún Deporte?<br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="30"></p>
+          </td>
+          <td>
+            <p>¿Permanece a algún Club Social o Deportivo?<br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="30"></p>
+          </td>
+          <td>
+            <p>¿Cuál es su pasatiempo favorito?<br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="30"></p>
+              
+          </td>
+          </tr>
+          <tr>
+          <td colspan="3">
+          <p>¿Cuál es su meta en la vida?<br><INPUT NAME="snum" TYPE="TEXT" SIZE="120" MAXLENGTH="80"></p>
+          </td>
+            
+        </tr>
+        
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+      <table WIDTH="100%" BORDER="1" CELLSPACING="4" CELLPADING="1">
+        <tr>
+          <th colspan="4" align="center" bgcolor="#bebebe">
+            <p>Datos Familiares</p>
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <p>Nombre</p>
+          </td>
+          <td>
+            <p>Domicilio</p>
+          </td>
+          <td>
+            <p>
+              Ocupación
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+              <p>Padre<br><INPUT NAME="snum" TYPE="TEXT" SIZE="60" MAXLENGTH="80"></p>
+                <input type="checkbox" id="cbox1" value="first_checkbox"> Vive</br>
+                <input type="checkbox" id="cbox2" value="first_checkbox"> Fin</br>
+              </td>
+          </td>
+          <td>
+            <textarea name="txtDomicilio" id="txtDomi1" cols="40" rows="3">
+            </textarea>
+          </td>
+          <td>
+            <textarea name="txtOcupacion" id="txtOcupa1" cols="40" rows="3">
+            </textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+              <p>Madre<br><INPUT NAME="snum" TYPE="TEXT" SIZE="60" MAXLENGTH="80"></p>
+                <input type="checkbox" id="cbox1" value="first_checkbox"> Vive</br>
+                <input type="checkbox" id="cbox2" value="first_checkbox"> Fin</br>
+              </td>
+          </td>
+          <td>
+            <textarea name="txtDomicilio" id="txtDomi2" cols="40" rows="3">
+            </textarea>
+          </td>
+          <td>
+            <textarea name="txtDomicilio" id="txtOcupa2" cols="40" rows="3">
+            </textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+              <p>Esposa(o)<br><INPUT NAME="snum" TYPE="TEXT" SIZE="60" MAXLENGTH="80"></p>
+                <input type="checkbox" id="cbox1" value="first_checkbox"> Vive</br>
+                <input type="checkbox" id="cbox2" value="first_checkbox"> Fin</br>
+              </td>
+          </td>
+          <td>
+            <textarea name="txtDomicilio" id="txtDomi3" cols="40" rows="3">
+            </textarea>
+          </td>
+          <td>
+            <textarea name="txtDomicilio" id="txtOcupa3" cols="40" rows="3">
+            </textarea>
+          </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+              <p>Nombre y edades de los hijos</p><textarea name="txtDomicilio" id="txtDomi1" cols="140" rows="10">
+              </textarea>
+            </td>
+        </tr>
+    </fieldset>
+    <br>
+  <br>
+    <fieldset>
+      <table WIDTH="100%" BORDER="1" CELLSPACING="4" CELLPADING="1">
+        <tr>
+          <th colspan="8" align="center" bgcolor="#bebebe">
+            <p>Escolaridad</p>
+          </th>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <p>Nombre</p>
+          </td>
+          <td colspan="2">
+            <p>Dirección</p>
+          </td>
+          <td>
+            <p>De</p>
+          </td>
+          <td>
+            <p>A</p>
+          </td>
+          <td>
+            <p>Años</p>
+          </td>
+          <td>
+            <p>Titulo Recibido</p>
+          </td>
+
+        </tr>
+        <tr>
+          <td colspan="2">
+          <p>Primaria<br><INPUT NAME="snum" TYPE="TEXT" SIZE="60" MAXLENGTH="80"></p>
+          </td>
+          <td colspan="2">
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="60" MAXLENGTH="80"></p>
+          </td>
+          <td>
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>
+          <td>
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>
+          <td>
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>
+          <td >
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>   
+        </tr>
+        <tr>
+          <td colspan="2">
+          <p>Secundaria o Prevocacional<br><INPUT NAME="snum" TYPE="TEXT" SIZE="60" MAXLENGTH="80"></p>
+          </td>
+          <td colspan="2">
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="60" MAXLENGTH="80"></p>
+          </td>
+          <td>
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>
+          <td>
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>
+          <td>
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>
+          <td >
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>   
+        </tr>
+        <tr>
+          <td colspan="2">
+          <p>Preparatoria o Vocacional<br><INPUT NAME="snum" TYPE="TEXT" SIZE="60" MAXLENGTH="80"></p>
+          </td>
+          <td colspan="2">
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="60" MAXLENGTH="80"></p>
+          </td>
+          <td>
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>
+          <td>
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>
+          <td>
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>
+          <td >
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>   
+        </tr>
+        <tr>
+          <td colspan="2">
+          <p>Profesional<br><INPUT NAME="snum" TYPE="TEXT" SIZE="60" MAXLENGTH="80"></p>
+          </td>
+          <td colspan="2">
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="60" MAXLENGTH="80"></p>
+          </td>
+          <td>
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>
+          <td>
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>
+          <td>
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>
+          <td >
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>   
+        </tr>
+        <tr>
+          <td colspan="2">
+          <p>Comercial u Otras<br><INPUT NAME="snum" TYPE="TEXT" SIZE="60" MAXLENGTH="80"></p>
+          </td>
+          <td colspan="2">
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="60" MAXLENGTH="80"></p>
+          </td>
+          <td>
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>
+          <td>
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>
+          <td>
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>
+          <td >
+            <p><br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>   
+        </tr>
+        <tr>
+          <td colspan="8">
+            <p>Estudios que esta efectuando en la actualidad:<br></p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <p>Escuela<br><INPUT NAME="snum" TYPE="TEXT" SIZE="80" MAXLENGTH="80"></p>
+          </td>
+          <td colspan="3">
+            <p>Curso o  carrera<br><INPUT NAME="snum" TYPE="TEXT" SIZE="60" MAXLENGTH="80"></p>
+          </td>
+          <td>
+            <p>Horario<br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>
+          <td>
+            <p>Grado<br><INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></p>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+    <br>
+  <br>
+    <fieldset>
+      <table WIDTH="100%" BORDER="1" CELLSPACING="4" CELLPADING="1">
+        <tr>
+          <th colspan="8" align="center" bgcolor="#bebebe">
+            <p>Conocimientos Generales</p>
+          </th>
+
+        </tr>
+        <tr>
+          <td colspan="2">
+            <p>Que idiomas habla<br><INPUT NAME="snum" TYPE="TEXT" SIZE="120" MAXLENGTH="80"></p>
+              <input type="checkbox" id="cbox1" value="first_checkbox"> 50%</br>
+              <input type="checkbox" id="cbox2" value="first_checkbox"> 75%</br>
+              <input type="checkbox" id="cbox2" value="first_checkbox"> 100%</br>
+            </td>
+          <td colspan="2">
+            <p>Funciones de oficina que domina</p><textarea name="txtDomicilio" id="txtDomi3" cols="40" rows="3">
+            </textarea>
+
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <p>Maquina de Oficina o taller que sepa manejar<br><INPUT NAME="snum" TYPE="TEXT" SIZE="120" MAXLENGTH="80"></p>
+            </td>
+          <td colspan="2">
+            <p>Software que conoce<br><INPUT NAME="snum" TYPE="TEXT" SIZE="120" MAXLENGTH="80"></p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <p>Otros trabajos o funciones que domina</br><INPUT NAME="snum" TYPE="TEXT" SIZE="180" MAXLENGTH="80"></p>
+          </td>
+        </tr>
+    </fieldset>
+    <br>
+  <br>
+    <fieldset>
+      <table WIDTH="100%" BORDER="1" CELLSPACING="4" CELLPADING="1">
+        <tr>
+          <th colspan="8" align="center" bgcolor="#bebebe">
+            <p>Empleo Actual y Anteriores</p>
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <p>Concepto</p>
+          </td>
+          <td>
+            <p>Actual  ultimo</p>
+          </td>
+          <td>
+            <p>Anterior</p>
+          </td>
+          <td>
+            <p>Anterior</p>
+          </td>
+          <td>
+            <p>Anterior</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Tiempo que presto sus servicios</p>
+          </td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Nombre de la compañia</p>
+          </td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+           <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Dirección</p>
+          </td>
+         <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Teléfono</p>
+          </td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Puesto desempeñado</p>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Sueldos Mensual</p>
+          </td>
+          <td>Inicial<INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80">Final<INPUT NAME="snum" TYPE="TEXT" SIZE="10" MAXLENGTH="80"></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Motivo de separación</p>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Nombre de su jefe directo</p>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Nombre de de jefe directo</p>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+          <td><br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></td></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Podemos solicitar informes de usted</p>
+            <input type="checkbox" id="cbox1" value="first_checkbox"> Si</br>
+            <input type="checkbox" id="cbox2" value="first_checkbox"> No</br>
+            razones<br><textarea name="txtDomicilio" id="txtOcupa3" cols="40" rows="3">
+            </textarea>
+          </td>
+
+          </td>
+          <td colspan="4">Comentarios de sus jefes<br><textarea name="txtDomicilio" id="txtOcupa3" cols="200" rows="6">
+          </textarea>
+          
+        </tr>
+    </fieldset>
+    <br>
+  <br>
+    <fieldset>
+      <table WIDTH="100%" BORDER="1" CELLSPACING="5" CELLPADING="1">
+        <tr>
+          <th colspan="8" align="center" bgcolor="#bebebe">
+            <p>Referencias Personales(Favor de no incluir a sus jefes)</p>
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <p>Nombre</p>
+          </td>
+          <td>
+            <p>Domicilio</p>
+          </td>
+          <td>
+            <p>Telèfono</p>
+          </td>
+          <td>
+            <p>Ocupaciòn</p>
+          </td>
+          <td>
+            <p>Tiempo de concretación</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80">
+          </td>
+          <td>
+            <INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80">
+          </td>
+          <td>
+            <INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80">
+          </td>
+          <td>
+            <INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80">
+          </td>
+          <td>
+            <INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80">
+          </td>
+          <td>
+            <INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80">
+          </td>
+          <td>
+            <INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80">
+          </td>
+          <td>
+            <INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80">
+          </td>
+          <td>
+            <INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80">
+          </td>
+          <td>
+            <INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80">
+          </td>
+          <td>
+            <INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80">
+          </td>
+          <td>
+            <INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80">
+          </td>
+          <td>
+            <INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80">
+          </td>
+        </tr>
+    </fieldset>
+    <br>
+  <br>
+    <fieldset>
+      <table WIDTH="100%" BORDER="1" CELLSPACING="5" CELLPADING="1">
+        <tr>
+          <th align="center" bgcolor="#bebebe">
+            <p>Datos generales</p>
+          </th>
+          <th colspan="2" align="center" bgcolor="#bebebe">
+            <p>Datos Económicos</p>
+          </th>
+        </tr>
+        <tr>
+          <td>
+          <p>¿Como supo de este empleo?<br></p>
+            <input type="checkbox" id="cbox1" value="first_checkbox"> Anuncio</br>
+            <input type="checkbox" id="cbox2" value="first_checkbox"> Otro medio(anótelo)<INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></br>
+          </td>
+          <td>
+            <p>¿Tiene usted otros ingresos?<br></p>
+            <input type="checkbox" id="cbox1" value="first_checkbox"> No</br>
+            <input type="checkbox" id="cbox2" value="first_checkbox"> Si(Describalos)<INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></br>
+          </td>
+          <td>
+            <p>Importe mensual</p><p>$<INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          <p>¿Tiene parientes trabajando en esta Empresa?<br></p>
+            <input type="checkbox" id="cbox1" value="first_checkbox"> No</br>
+            <input type="checkbox" id="cbox2" value="first_checkbox"> Si(nómbrelos)<INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></br>
+          </td>
+          <td>
+            <p>¿Su cónyuge trabaja?<br></p>
+            <input type="checkbox" id="cbox1" value="first_checkbox"> No</br>
+            <input type="checkbox" id="cbox2" value="first_checkbox"> Si(¿dónde?)<INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></br>
+          </td>
+          <td>
+            <p>Percepción mensual</p><p>$<INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          <p>¿Ha estado afianzado?<br></p>
+            <input type="checkbox" id="cbox1" value="first_checkbox"> No</br>
+            <input type="checkbox" id="cbox2" value="first_checkbox"> Si(nombre de la Cla.)<INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></br>
+          </td>
+          <td>
+            <p>¿Vive en casa propia?<br></p>
+            <input type="checkbox" id="cbox1" value="first_checkbox"> No</br>
+            <input type="checkbox" id="cbox2" value="first_checkbox"> Si(Describalos)<INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></br>
+          </td>
+          <td>
+            <p>Valor aproximado</p><p>$<INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          <p>¿Ha estado afiliado a algún sindicato?<br></p>
+            <input type="checkbox" id="cbox1" value="first_checkbox"> No</br>
+            <input type="checkbox" id="cbox2" value="first_checkbox"> Si¿a Cuál?<INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></br>
+          </td>
+          <td>
+            <p>¿Paga renta?<br></p>
+            <input type="checkbox" id="cbox1" value="first_checkbox"> No</br>
+            <input type="checkbox" id="cbox2" value="first_checkbox"> Si</br>
+          </td>
+          <td>
+            <p>Renta mensual</p><p>$<INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></p>
+          </td>
+        </tr>
+      <tr>
+          <td>
+          <p>¿Tiene seguro de vida?<br></p>
+            <input type="checkbox" id="cbox1" value="first_checkbox"> No</br>
+            <input type="checkbox" id="cbox2" value="first_checkbox"> Si(nombre de la Cla.)<INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></br>
+          </td>
+          <td>
+            <p>¿Tiene automovil propio?<br></p>
+            <input type="checkbox" id="cbox1" value="first_checkbox"> No</br>
+            <input type="checkbox" id="cbox2" value="first_checkbox"> Si</br>
+          </td>
+          <td>
+            <p>Marca</p><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></br>
+            <p>Modelo</p><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></br>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          <p>¿Puede viajar?<br></p>
+            <input type="checkbox" id="cbox1" value="first_checkbox"> Si</br>
+            <input type="checkbox" id="cbox2" value="first_checkbox"> No(razones)<INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></br>
+          </td>
+          <td>
+            <p>¿Tiene deudas?<br></p>
+            <input type="checkbox" id="cbox1" value="first_checkbox"> No</br>
+            <input type="checkbox" id="cbox2" value="first_checkbox"> Si(¿Con quién?)<INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></br>
+          </td>
+          <td>
+            <p>Importe</p><p>$<INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          <p>¿Esta dispuesto a cambiar de lugar de residencia?<br></p>
+            <input type="checkbox" id="cbox1" value="first_checkbox"> Si</br>
+            <input type="checkbox" id="cbox2" value="first_checkbox"> No(razones)<INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></br>
+          </td>
+          <td colspan="2">
+            <p>¿Cuénto abona mensualmente?<br><INPUT NAME="snum" TYPE="TEXT" SIZE="40" MAXLENGTH="80"></br></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Fecha en que podría presentarse a trabajar<br><INPUT NAME="snum" TYPE="TEXT" SIZE="120" MAXLENGTH="80"></br></p>
+          </td>
+          <td colspan="2">
+            <p>¿A cuánto ascienden sus gastos mensuales?<br><INPUT NAME="snum" TYPE="TEXT" SIZE="120" MAXLENGTH="80"></br></p>
+          </td>
+        </tr>
+    </fieldset>
+    <br>
+  <br>
+    <fieldset>
+      <tr>
+        <th align="center" bgcolor="#bebebe">
+          <p>Comentarios del Entrevistador y Firma</p>
+        </th>
+        <th rowspan="3" colspan="2">
+          <p>Hago constar que mis respuestas son verdaderas</p>
+          <br>
+          <br>
+          <br>
+          <p>Firma del solicitante </p>
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <textarea name="txtComentarios" id="txtComentarios" cols="100" rows="3">
+          </textarea>
+        </td>
+      </tr>
+    </fieldset>
+
+  
+</body>
+</html>
